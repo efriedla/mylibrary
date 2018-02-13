@@ -11,8 +11,11 @@ class App extends Component {
       
     return (
       <div >
-        <h1>My library</h1>
-       <BookList />
+        <div class="container">
+          <h1 >My library</h1>
+          <BookList />
+        </div>
+       
         
         
       </div>

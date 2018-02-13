@@ -5,13 +5,13 @@ class BookList extends Component {
     renderList(){
         return this.props.books.map((book) => {
             return (
-                <li key={book.title}>{book.title}</li>
+                <li class="list-group-item" key={book.title}>{book.title}</li>
             );
         });
     }
     render() {
         return(
-            <ul>
+            <ul class="list-group">
                 {this.renderList()}
             </ul>
         )
