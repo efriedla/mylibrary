@@ -24,5 +24,5 @@ function mapStateToProps(state){
         books: state.books
     }
 }
-
+//exports both this class and function
 export default connect(mapStateToProps)(BookList);
