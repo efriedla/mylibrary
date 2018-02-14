@@ -9,7 +9,7 @@
 export default function(state = null, action){
     switch(action.type){
         case 'Book_Selected':
-        return action.book
+        return action.book;
     }
     return state
 }
