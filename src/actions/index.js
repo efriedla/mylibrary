@@ -1,3 +1,7 @@
 export function selectBook(book){
-    console.log("a book was celected : ", book.title);
+    console.log("selectBook actioncreator: " + book.title);
+    return({
+        type:'TBD',
+        book: book
+    });
 }
