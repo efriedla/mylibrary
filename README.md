@@ -2,7 +2,7 @@
 ## Goal:
 ```
 [x] To read through an object of books
-[ ] View single book at a time
+[x] View single book at a time
 [ ] able to change book
 ```
 # npm Packages used
